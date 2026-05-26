@@ -4,10 +4,11 @@ import { useAuth } from '../hooks/useAuth';
 import Alert from '../components/ui/Alert';
 import Button from '../components/ui/Button';
 
-// ─── Types ────────────────────────────────────────────────────────
+/* Types Begins */
 type ModalType = 'login' | 'register' | null;
+/* Types Ends */
 
-// ─── Data ─────────────────────────────────────────────────────────
+/* Data Begins */
 const TRUST_ITEMS = [
   { icon: '🛡️', label: 'Bipanna Verified',   desc: 'Identity & need certified' },
   { icon: '🤝', label: 'Direct to Hospital', desc: 'Funds paid to providers'   },
@@ -19,8 +20,9 @@ const HOW_IT_WORKS = [
   { step: '02', title: 'Choose to help', desc: 'Select a patient and contribute any amount via Esewa, Khalti, or bank transfer.' },
   { step: '03', title: 'Track impact',   desc: "Follow the patient's progress and see exactly how your contribution is used." },
 ] as const;
+/* Data Ends */
 
-// ─── Shared styles ────────────────────────────────────────────────
+/* Shared styles Begins */
 const input: React.CSSProperties = {
   width: '100%', padding: '10px 12px', border: '1px solid #E2DDD6',
   borderRadius: '6px', background: '#F5F3EE', fontSize: '14px',
@@ -37,8 +39,10 @@ const ghostBtn: React.CSSProperties = {
   color: '#1D9E75', fontWeight: 500, fontSize: '13px',
   cursor: 'pointer', fontFamily: 'inherit',
 };
+/* Shared styles Ends */
 
-// ─── Modal ────────────────────────────────────────────────────────
+
+/* Modal Begins */
 interface ModalProps { open: boolean; onClose: () => void; children: React.ReactNode; }
 
 function Modal({ open, onClose, children }: ModalProps) {
@@ -95,8 +99,9 @@ function Modal({ open, onClose, children }: ModalProps) {
     </div>
   );
 }
+/* Modal Ends */
 
-// ─── Login ────────────────────────────────────────────────────────
+/* Login */
 interface LoginModalProps { onClose: () => void; onSwitch: () => void; }
 
 function LoginModal({ onClose, onSwitch }: LoginModalProps) {
@@ -114,7 +119,8 @@ function LoginModal({ onClose, onSwitch }: LoginModalProps) {
     try {
       await login(email, password);
       onClose();
-      navigate('/dashboard');
+      // navigate('/dashboard');
+      navigate('/patients');
     } catch (err: any) {
       setError(err.message);
     } finally {
@@ -153,8 +159,9 @@ function LoginModal({ onClose, onSwitch }: LoginModalProps) {
     </>
   );
 }
+/* Login Ends*/
 
-// ─── Register ─────────────────────────────────────────────────────
+/* Register Begins */
 interface RegisterModalProps { onClose: () => void; onSwitch: () => void; }
 
 function RegisterModal({ onClose, onSwitch }: RegisterModalProps) {
@@ -228,8 +235,9 @@ function RegisterModal({ onClose, onSwitch }: RegisterModalProps) {
     </>
   );
 }
+/* Register Ends */
 
-// ─── Index page ───────────────────────────────────────────────────
+/* Index page Begins */
 export default function IndexPage() {
   const [modal, setModal] = useState<ModalType>(null);
 
@@ -247,7 +255,7 @@ export default function IndexPage() {
         <RegisterModal onClose={closeModal} onSwitch={() => setModal('login')} />
       </Modal>
 
-      {/* Navbar */}
+      {/* Navbar Begins */}
       <header style={{ borderBottom: '1px solid #E2DDD6', background: '#FFFFFF' }}>
         <div style={{ maxWidth: '1080px', margin: '0 auto', padding: '0 24px', height: '58px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -270,6 +278,8 @@ export default function IndexPage() {
           </div>
         </div>
       </header>
+      {/* Navbar Ends */}
+
 
       <main style={{ flex: 1 }}>
 
@@ -354,12 +364,13 @@ export default function IndexPage() {
         </section>
       </main>
 
-      {/* Footer */}
+      {/* Footer Begins */}
       <footer style={{ borderTop: '1px solid #E2DDD6', background: '#FFFFFF', padding: '20px 24px' }}>
         <div style={{ maxWidth: '1080px', margin: '0 auto', textAlign: 'center', fontSize: '13px', color: '#9B978F' }}>
           © {new Date().getFullYear()} BayuLok · Built with care for Nepal.
         </div>
       </footer>
+      {/* Footer Begins */}
 
     </div>
   );
