@@ -1,8 +1,0 @@
-<Solution>
-  <Folder Name="/src/">
-    <Project Path="src/BaayuLok.Api/BaayuLok.Api.csproj" />
-    <Project Path="src/BaayuLok.Application/BaayuLok.Application.csproj" />
-    <Project Path="src/BaayuLok.Domain/BaayuLok.Domain.csproj" />
-    <Project Path="src/BaayuLok.Infrastructure/BaayuLok.Infrastructure.csproj" />
-  </Folder>
-</Solution>
