@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Api\\BaayuLok.Api.csproj": {}
+    "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Api\\BaayuLok.Api.csproj": {}
   },
   "projects": {
-    "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Api\\BaayuLok.Api.csproj": {
+    "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Api\\BaayuLok.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Api\\BaayuLok.Api.csproj",
+        "projectUniqueName": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Api\\BaayuLok.Api.csproj",
         "projectName": "BaayuLok.Api",
-        "projectPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Api\\BaayuLok.Api.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Api\\obj\\",
+        "projectPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Api\\BaayuLok.Api.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,10 +30,11 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj": {
-                "projectPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj"
+              "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj": {
+                "projectPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj"
               }
             }
           }
@@ -48,10 +49,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
@@ -88,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -506,20 +508,20 @@
         }
       }
     },
-    "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Application\\BaayuLok.Application.csproj": {
+    "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Application\\BaayuLok.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Application\\BaayuLok.Application.csproj",
+        "projectUniqueName": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Application\\BaayuLok.Application.csproj",
         "projectName": "BaayuLok.Application",
-        "projectPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Application\\BaayuLok.Application.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Application\\obj\\",
+        "projectPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Application\\BaayuLok.Application.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -532,10 +534,11 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj": {
-                "projectPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj"
+              "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj": {
+                "projectPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj"
               }
             }
           }
@@ -550,10 +553,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "FluentValidation.DependencyInjectionExtensions": {
@@ -581,7 +585,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -859,20 +863,20 @@
         }
       }
     },
-    "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj": {
+    "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj",
+        "projectUniqueName": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj",
         "projectName": "BaayuLok.Domain",
-        "projectPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Domain\\obj\\",
+        "projectPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -885,6 +889,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -899,10 +904,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -920,7 +926,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1198,20 +1204,20 @@
         }
       }
     },
-    "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj": {
+    "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj",
+        "projectUniqueName": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj",
         "projectName": "BaayuLok.Infrastructure",
-        "projectPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Infrastructure\\obj\\",
+        "projectPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Infrastructure\\BaayuLok.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1224,13 +1230,14 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Application\\BaayuLok.Application.csproj": {
-                "projectPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Application\\BaayuLok.Application.csproj"
+              "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Application\\BaayuLok.Application.csproj": {
+                "projectPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Application\\BaayuLok.Application.csproj"
               },
-              "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj": {
-                "projectPath": "Z:\\baayuBackend\\BaayuLok-Backend\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj"
+              "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj": {
+                "projectPath": "D:\\FinalYearProject\\TheBackend\\baayulok\\src\\BaayuLok.Domain\\BaayuLok.Domain.csproj"
               }
             }
           }
@@ -1245,10 +1252,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "BCrypt.Net-Next": {
@@ -1284,7 +1292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

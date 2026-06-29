@@ -10,3 +10,15 @@ Z:\baayuBackend\BaayuLok-Backend\src\BaayuLok.Domain\obj\Debug\net10.0\refint\Ba
 Z:\baayuBackend\BaayuLok-Backend\src\BaayuLok.Domain\obj\Debug\net10.0\BaayuLok.Domain.pdb
 Z:\baayuBackend\BaayuLok-Backend\src\BaayuLok.Domain\obj\Debug\net10.0\ref\BaayuLok.Domain.dll
 Z:\baayuBackend\BaayuLok-Backend\src\BaayuLok.Domain\obj\Debug\net10.0\BaayuLok.Domain.sourcelink.json
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\bin\Debug\net10.0\BaayuLok.Domain.deps.json
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\bin\Debug\net10.0\BaayuLok.Domain.dll
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\bin\Debug\net10.0\BaayuLok.Domain.pdb
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\obj\Debug\net10.0\BaayuLok.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\obj\Debug\net10.0\BaayuLok.Domain.AssemblyInfoInputs.cache
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\obj\Debug\net10.0\BaayuLok.Domain.AssemblyInfo.cs
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\obj\Debug\net10.0\BaayuLok.Domain.csproj.CoreCompileInputs.cache
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\obj\Debug\net10.0\BaayuLok.Domain.sourcelink.json
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\obj\Debug\net10.0\BaayuLok.Domain.dll
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\obj\Debug\net10.0\refint\BaayuLok.Domain.dll
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\obj\Debug\net10.0\BaayuLok.Domain.pdb
+D:\FinalYearProject\TheBackend\baayulok\src\BaayuLok.Domain\obj\Debug\net10.0\ref\BaayuLok.Domain.dll
